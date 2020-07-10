@@ -718,13 +718,15 @@ body:after {
   border: none;
   margin-bottom: 30px;
   border-radius: 4px; }
-  .item a {
+  .item > a {
     display: block;
     overflow: hidden;
     position: relative;
     border-radius: 4px; }
     .item a img {
       position: relative;
+      height: 100%;
+      width: 100%;
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
@@ -744,6 +746,7 @@ body:after {
       bottom: 0;
       background: rgba(0, 0, 0, 0.4);
       visibility: hidden;
+      height: 100%;
       opacity: 0;
       -webkit-transition: .3s all ease-in-out;
       -o-transition: .3s all ease-in-out;
