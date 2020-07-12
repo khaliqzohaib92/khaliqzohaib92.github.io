@@ -876,8 +876,30 @@ body:after {
 
 
       /* my styles */
+.skill-icon-con{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-icon {
+  width: 60%;
+}
+
+.skill-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.1vh;
+}
 
 
-.mw-16 {
-  max-width: 16% !important;
+@media (max-width: 991.98px) {
+  .skill-title {
+    font-size: 1.5vh;
+  }
+
+  .skill-icon {
+    width: 90px;
+    height: 90px;
+  }
 }
