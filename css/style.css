@@ -911,4 +911,8 @@ body:after {
   flex-direction: row;
 }
 
+.social-circle span{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
 
