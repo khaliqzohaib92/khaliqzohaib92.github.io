@@ -89,7 +89,7 @@
               <div class="col-lg-6">
                 <h1 class="text-black">I'm Zohaib </h1>
                 <!-- I'm Software Engineer Based on NY City -->
-                <p class="lead">Website in progress, Please come in 2 weeks!</p>
+                <p class="lead">I'm Software Engineer Based on NY City</p>
                 <p><a href="./docs/Zohaib_Khaliq_Resume.pdf" target="_blank" class="btn smoothscroll btn-primary">Resume</a></p>
 
               </div>
@@ -293,38 +293,38 @@
       </div>
 
     </section>
-    <section class="site-section" id="contact-section">
+    <section class="site-section kwes-form" id="contact-section">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
             <h2 class="section-title text-center mb-5">Contact Form</h2>
           </div>
         </div>
-        <form action="#" class="form">
+        <form method="POST" action="https://kwes.io/api/foreign/forms/BFdHeWXeWQx1oHsedKOt" class="form">
           <div class="row mb-4">
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="First name">
+              <input type="text" class="form-control" name="name" placeholder="First name" rules="required|max:255">
             </div>
             <div class="form-group col-6">
-              <input type="text" class="form-control" placeholder="Last name">
+              <input type="text" class="form-control" name="lastname" placeholder="Last name" rules="required|max:255">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="email" class="form-control" placeholder="Email address">
+              <input type="email" class="form-control" name="email" placeholder="Email address">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <input type="text" class="form-control" placeholder="Subject of the message">
+              <input type="text" class="form-control" name="subject" placeholder="Subject of the message">
             </div>
           </div>
 
           <div class="row mb-4">
             <div class="form-group col-12">
-              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
+              <textarea name="" id="" cols="30" rows="10" name="message" class="form-control" placeholder="Type your message here.."></textarea>
             </div>
           </div>
 
@@ -373,7 +373,8 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
 
-  
+  <script src="https://kwes.io/js/kwes.js"></script>
+
   <script src="js/main.js"></script>
     
   </body>
