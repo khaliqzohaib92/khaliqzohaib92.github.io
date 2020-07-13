@@ -893,6 +893,8 @@ body:after {
 }
 
 
+
+
 @media (max-width: 991.98px) {
   .skill-title {
     font-size: 1.5vh;
@@ -903,3 +905,10 @@ body:after {
     height: 90px;
   }
 }
+
+.project-button {
+  display: flex;
+  flex-direction: row;
+}
+
+
