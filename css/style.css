@@ -897,7 +897,7 @@ body:after {
 
 @media (max-width: 991.98px) {
   .skill-title {
-    font-size: 1.5vh;
+    font-size: 1.2vh;
   }
 
   .skill-icon {
@@ -908,7 +908,7 @@ body:after {
 
 @media (max-width: 600px) {
   .skill-item{
-    width: 33%;
+    width: 25%;
   }
 }
 

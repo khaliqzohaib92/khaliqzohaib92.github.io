@@ -46,7 +46,8 @@ jQuery(document).ready(function($) {
     }, 1000);
 
 		$('body').on('click', '.arrow-collapse', function(e) {
-      var $this = $(this);
+	  var $this = $(this);
+
       if ( $this.closest('li').find('.collapse').hasClass('show') ) {
         $this.removeClass('active');
       } else {
@@ -68,6 +69,7 @@ jQuery(document).ready(function($) {
 		})
 
 		$('body').on('click', '.js-menu-toggle', function(e) {
+			debugger
 			var $this = $(this);
 			e.preventDefault();
 
@@ -79,6 +81,17 @@ jQuery(document).ready(function($) {
 				$this.addClass('active');
 			}
 		}) 
+
+		$('body').on('click', '.nav-link', function(e) {
+			debugger
+			var $this = $(this);
+			e.preventDefault();
+			if($('a').hasClass('js-menu-toggle')){
+					$('body').removeClass('offcanvas-menu');
+				
+			}
+		}) 
+		
 
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
