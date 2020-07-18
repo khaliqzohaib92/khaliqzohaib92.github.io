@@ -906,6 +906,12 @@ body:after {
   }
 }
 
+@media (max-width: 600px) {
+  .skill-item{
+    width: 33%;
+  }
+}
+
 .project-button {
   display: flex;
   flex-direction: row;
