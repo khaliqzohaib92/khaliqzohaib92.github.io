@@ -911,11 +911,12 @@ body:after {
   margin-left: 1rem;
 }
 
-
-.project-description {
-  height: 124px;
+@media (min-width: 992px) {
+  .project-description {
+    height: 124px;
+  }
+  
 }
-
 
 
 @media (max-width: 991.98px) {
