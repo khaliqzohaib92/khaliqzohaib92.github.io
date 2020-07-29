@@ -894,6 +894,12 @@ body:after {
 }
 
 
+.additional-skills {
+  font-size: 2.1vh;
+  text-align: center;
+  font-weight: 100;
+  color: #666666ad;
+}
 
 
 
@@ -910,6 +916,7 @@ body:after {
   font-size: 2rem;
   margin-left: 1rem;
 }
+
 
 @media (min-width: 992px) {
   .project-description {
